@@ -16,6 +16,8 @@ const Home = () => {
     <Container>
         <Cards/>
         <Cards/>
+        <Cards/>
+        <Cards/>
     </Container>
   )
 }
