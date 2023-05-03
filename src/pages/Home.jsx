@@ -11,6 +11,7 @@ const Container = styled.div`
     flex-wrap: wrap;
 `
 
+
 const Home = () => {
   return (
     <Container>
