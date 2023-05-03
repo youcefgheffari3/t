@@ -1,6 +1,7 @@
-import { Card } from '@mui/material'
+
 import React from 'react'
 import styled from 'styled-components'
+import Cards from '../components/Cards'
 
 
 
@@ -13,10 +14,8 @@ const Container = styled.div`
 const Home = () => {
   return (
     <Container>
-        <Card/>
-        <Card/>
-        <Card/>
-        <Card/>
+        <Cards/>
+        <Cards/>
     </Container>
   )
 }
