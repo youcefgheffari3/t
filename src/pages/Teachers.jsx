@@ -19,8 +19,10 @@ const TeachersWrapper = styled.div`
     flex: 5;
 `
 
-const Title = styled.div`
-    flex: 5;
+const Title = styled.h1`
+    font-size: 30px;
+    font-weight: 400;
+    color:${({theme})=>theme.text};
 `
 
 
@@ -28,6 +30,16 @@ const Title = styled.div`
 const Recommendation = styled.div`
     flex: 2;
 `
+
+const Details = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:${({theme})=>theme.textSoft};
+    margin-top: 13px;
+`
+
+
 const Img = styled.img`
     max-width: 100%;
     -ms-flex-item-align: start;
@@ -37,14 +49,24 @@ const Img = styled.img`
 
 `
 
+const Hr = styled.hr`
+    margin: 15px 0px;
+    border: 1px solid ${({theme})=>theme.textSoft};
+`
+
+
 
 const Teachers = () => {
   return (
     <Container>
         <Content>
             <Title>
-                Dr Bouziane
+                Dr Abdel Ghani Bouziane
             </Title>
+            <Details>
+                AI Developer and Teacher in CUN
+            </Details>
+            <Hr/>
         </Content>
         <Recommendation><Img src={teacher1}/></Recommendation>
     </Container>
