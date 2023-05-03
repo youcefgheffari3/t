@@ -5,6 +5,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import LogoutIcon from '@mui/icons-material/Logout';
+import { Link } from 'react-router-dom';
 
 const Container =styled.div`
     flex:1;
@@ -42,9 +43,11 @@ const Menu = ({darkMode, setDarkMode}) => {
   return (
     <Container>
         <Wrapper>
+        <Link to="/" style={{textDecoration:"none", color:"inherit"}}>
             <Logo>
                 <Img src={jami3a}/>
             </Logo>
+        </Link>
             <Item>
                 <HomeIcon/>
                 Home

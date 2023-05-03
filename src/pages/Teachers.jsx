@@ -2,7 +2,8 @@ import React from 'react'
 
 const Teachers = () => {
   return (
-    <div>Teachers</div>
+    <div><h1>Hello</h1></div>
+    
   )
 }
 
