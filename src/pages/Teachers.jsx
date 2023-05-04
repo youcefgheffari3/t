@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import teacher1 from '../img/33.png'
+import { Link } from 'react-router-dom'
 
 
 const Container = styled.div`
@@ -81,8 +82,12 @@ const Teachers = () => {
             <Title>
                 Modules
             </Title>
+            <Link to="/Modules/1" style={{textDecoration:"none"}}>
             <button type="button" class="btn btn-secondary" style={{margin:"20px"}}>Theorie de langauge</button>
+            </Link>
+            <Link to="/Modules2/2" style={{textDecoration:"none"}}>
             <button type="button" class="btn btn-secondary" style={{margin:"20px"}}>Web developement</button>
+            </Link>
         </Content>
         <Recommendation><Img src={teacher1}/></Recommendation>
     </Container>

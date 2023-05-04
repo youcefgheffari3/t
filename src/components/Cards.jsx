@@ -36,7 +36,7 @@ const Title = styled.h1`
 
 const Cards = () => {
   return (
-    <Link to="/Teachers/test" style={{textDecoration:"none"}}>
+    <Link to="/Teachers/1" style={{textDecoration:"none"}}>
     <Container>
       <Image/>
       <Details>

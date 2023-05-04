@@ -12,6 +12,8 @@ import {
 } from "react-router-dom";
 import Home from "./pages/Home";
 import Teachers from "./pages/Teachers";
+import Modules from "./pages/Modules";
+import Modules2 from "./pages/Modules2";
 
 const Container = styled.div`
   display: flex;
@@ -42,6 +44,12 @@ function App() {
               <Route index element={<Home/>}/>
               <Route path="Teachers">
                 <Route path=":id" element={<Teachers/>}/>
+              </Route>
+              <Route path="Modules">
+                <Route path=":id" element={<Modules/>}/>
+              </Route>
+              <Route path="Modules2">
+                <Route path=":id" element={<Modules2/>}/>
               </Route>
             </Route>
           </Routes>
