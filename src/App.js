@@ -14,6 +14,7 @@ import Home from "./pages/Home";
 import Teachers from "./pages/Teachers";
 import Modules from "./pages/Modules";
 import Modules2 from "./pages/Modules2";
+import Profile from "./pages/Profile";
 
 const Container = styled.div`
   display: flex;
@@ -50,6 +51,9 @@ function App() {
               </Route>
               <Route path="Modules2">
                 <Route path=":id" element={<Modules2/>}/>
+              </Route>
+              <Route path="Profile">
+                <Route path=":id" element={<Profile/>}/>
               </Route>
             </Route>
           </Routes>

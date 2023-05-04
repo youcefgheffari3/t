@@ -16,9 +16,9 @@ const Content = styled.div`
 
 
 
-const TeachersWrapper = styled.div`
-    flex: 5;
-`
+// const TeachersWrapper = styled.div`
+//     flex: 5;
+// `
 
 const Title = styled.h1`
     font-size: 30px;

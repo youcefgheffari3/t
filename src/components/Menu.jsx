@@ -48,15 +48,19 @@ const Menu = ({darkMode, setDarkMode}) => {
                 <Img src={jami3a}/>
             </Logo>
         </Link>
+        <Link to="/" style={{textDecoration:"none", color:"inherit"}}>
             <Item>
                 <HomeIcon/>
                 Home
             </Item>
+            </Link>
             <Hr/>
+            <Link to="/Profile/1" style={{textDecoration:"none", color:"inherit"}}>
             <Item>
                 <AccountCircleIcon/>
                 Profile
             </Item>
+            </Link>
             <Hr/>
             <Item onClick={()=>setDarkMode(!darkMode)}>
                 <LightModeIcon/>
