@@ -16,13 +16,6 @@ const Home = () => {
   return (
     <Container>
         <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
     </Container>
   )
 }

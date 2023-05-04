@@ -67,6 +67,22 @@ const Teachers = () => {
                 AI Developer and Teacher in CUN
             </Details>
             <Hr/>
+            <Details>
+            I am a professor at the Salehi Ahmed Al Naama Collective Center, <br/>
+            specializing in artificial intelligence.  <br/>
+            I teach computer science students and many subjects.<br/>
+            </Details>
+            <br/>
+            <br/>
+            <Hr/>
+            <br/>
+            <br/>
+            <br/>
+            <Title>
+                Modules
+            </Title>
+            <button type="button" class="btn btn-secondary" style={{margin:"20px"}}>Theorie de langauge</button>
+            <button type="button" class="btn btn-secondary" style={{margin:"20px"}}>Web developement</button>
         </Content>
         <Recommendation><Img src={teacher1}/></Recommendation>
     </Container>
