@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import styled from 'styled-components'
+import folder from '../img/download.png'
 
 
 const Container = styled.div`
@@ -13,7 +14,7 @@ const Container = styled.div`
 const Image = styled.div`
   width: 100%;
   height: 202px;
-  background-color: #999;
+  max-width: 100%;
 `
 
 const Details = styled.div`
@@ -38,10 +39,10 @@ const Cards = () => {
   return (
     <Link to="/Teachers/1" style={{textDecoration:"none"}}>
     <Container>
-      <Image/>
+      <Image src={folder}/>
       <Details>
         <Texts>
-          <Title>Dr. Djeloul Bouchiha</Title>
+          <Title>Dr. Bouziane</Title>
         </Texts>
       </Details>
     </Container>
